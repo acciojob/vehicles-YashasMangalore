@@ -3,7 +3,7 @@ package com.driver;
 public class Boat implements WaterVehicle
 {
     private String name;
-    private Integer capacity;
+    private int capacity;
 
     // Constructor with String and int arguments
     public Boat(String name, int capacity) {
