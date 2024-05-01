@@ -1,6 +1,7 @@
 package com.driver;
 
-public class F1 extends Car {
+public class F1 extends Car
+{
 
     public F1(String name, boolean isManual)
     {
@@ -45,7 +46,7 @@ public class F1 extends Car {
         //for all other cases, change the gear accordingly
         if(newSpeed > 0)
         {
-            changeSpeed(newSpeed, 0);
+            changeSpeed(newSpeed, getCurrentDirection());
         }
     }
 }
